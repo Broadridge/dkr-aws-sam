@@ -22,7 +22,7 @@ ENV PYTHONUNBUFFERED 1
 
 ADD requirements.txt .
 RUN apk add --no-cache bash ca-certificates docker-cli \
-    && apk add --no-cache --virtual .build-deps build-base \
+    && apk add --no-cache --virtual .build-deps build-base git \
     && python -m pip install --upgrade pip \
     && python -m pip install -r requirements.txt \
     && apk del .build-deps \
