@@ -10,10 +10,10 @@
 # `Pipfile.lock` and then regenerate `requirements*.txt`.
 ################################################################################
 
--e git+https://github.com/bdwyertech/aws-sam-cli@037fe62819c388564093035a06dd48402abd1afc#egg=aws-sam-cli
 arrow==0.15.5
 attrs==19.3.0
 aws-lambda-builders==0.8.0
+aws-sam-cli==0.47.0
 aws-sam-translator==1.22.0
 binaryornot==0.4.4
 boto3==1.12.39
