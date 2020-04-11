@@ -2,7 +2,7 @@
 # Magical Entrypoint
 # Brian Dwyer - Broadridge Financial Solutions
 
-# Kitchen Wrapper & Passthrough
+# SAM Wrapper & Passthrough
 case "$1" in
 	init ) sam "$@";;
 	validate ) sam "$@";;
@@ -12,5 +12,6 @@ case "$1" in
 	deploy ) sam "$@";;
 	logs ) sam "$@";;
 	publish ) sam "$@";;
+	-*)     sam "$@";;
 	* )	exec "$@";;
 esac
