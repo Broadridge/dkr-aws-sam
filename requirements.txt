@@ -10,47 +10,47 @@
 # `Pipfile.lock` and then regenerate `requirements*.txt`.
 ################################################################################
 
-arrow==0.15.5
-attrs==19.3.0
-aws-lambda-builders==0.8.0
-aws-sam-cli==0.47.0
-aws-sam-translator==1.22.0
+arrow==0.15.8 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
+attrs==19.3.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+aws-lambda-builders==1.0.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'
+aws-sam-cli==1.0.0
+aws-sam-translator==1.25.0
 binaryornot==0.4.4
-boto3==1.12.39
-botocore==1.15.39
-certifi==2020.4.5.1
+boto3==1.13.26
+botocore==1.16.26
+certifi==2020.6.20
 chardet==3.0.4
 chevron==0.13.1
-click==7.1.1
+click==7.1.2 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
 cookiecutter==1.6.0
-dateparser==0.7.4
-docker==4.2.0
-docutils==0.15.2
-flask==1.0.4
-future==0.18.2
-idna==2.8
-itsdangerous==1.1.0
+dateparser==0.7.6 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
+docker==4.2.2 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
+docutils==0.15.2 ; python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'
+flask==1.0.4 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+future==0.18.2 ; python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'
+idna==2.10 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+itsdangerous==1.1.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
 jinja2-time==0.2.0
-jinja2==2.11.1
+jinja2==2.11.2 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
 jmespath==0.9.5
 jsonschema==3.2.0
-markupsafe==1.1.1
-poyo==0.5.0
-pypiwin32==223 ; sys_platform == 'win32' and python_version >= '3.6'
+markupsafe==1.1.1 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+poyo==0.5.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+pypiwin32==223 ; python_version >= '3.6' and sys_platform == 'win32'
 pyrsistent==0.16.0
-python-dateutil==2.8.0
-pytz==2019.3
-pywin32==227 ; sys_platform == 'win32'
+python-dateutil==2.8.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+pytz==2020.1
+pywin32==228 ; sys_platform == 'win32'
 pyyaml==5.3.1
-regex==2020.4.4
-requests==2.22.0
+regex==2020.7.14
+requests==2.23.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
 s3transfer==0.3.3
-serverlessrepo==0.1.9
-six==1.14.0
-tomlkit==0.5.8
-tzlocal==2.0.0
-urllib3==1.25.8 ; python_version != '3.4'
+serverlessrepo==0.1.9 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+six==1.15.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+tomlkit==0.5.8 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+tzlocal==2.1
+urllib3==1.25.10 ; python_version != '3.4'
 websocket-client==0.57.0
-werkzeug==1.0.1
-wheel==0.34.2
+werkzeug==1.0.1 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
+wheel==0.34.2 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
 whichcraft==0.6.1
