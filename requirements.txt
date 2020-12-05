@@ -11,46 +11,46 @@
 ################################################################################
 
 arrow==0.17.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
-attrs==20.2.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+attrs==20.3.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
 aws-lambda-builders==1.1.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'
-aws-sam-cli==1.6.2
-aws-sam-translator==1.27.0
+aws-sam-cli==1.13.2
+aws-sam-translator==1.32.0
 binaryornot==0.4.4
 boto3==1.14.63
 botocore==1.17.63
-certifi==2020.6.20
+certifi==2020.11.8
 chardet==3.0.4
 chevron==0.13.1
 click==7.1.2 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
-cookiecutter==1.6.0
+cookiecutter==1.7.2 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
 dateparser==0.7.6 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
 docker==4.2.2 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
-docutils==0.15.2 ; python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2'
-flask==1.0.4 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-future==0.18.2 ; python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2'
+docutils==0.15.2 ; python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'
+flask==1.1.2 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
 idna==2.10 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
 itsdangerous==1.1.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
 jinja2-time==0.2.0
 jinja2==2.11.2 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
-jmespath==0.9.5
+jmespath==0.10.0 ; python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'
 jsonschema==3.2.0
 markupsafe==1.1.1 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
 poyo==0.5.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-pypiwin32==223 ; sys_platform == 'win32' and python_version >= '3.6'
+pypiwin32==223 ; python_version >= '3.6' and sys_platform == 'win32'
 pyrsistent==0.17.3 ; python_version >= '3.5'
-python-dateutil==2.8.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'
-pytz==2020.1
-pywin32==228
+python-dateutil==2.8.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+python-slugify==4.0.1
+pytz==2020.4
+pywin32==300
 pyyaml==5.3.1
-regex==2020.10.11
+regex==2020.11.13
 requests==2.23.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
 s3transfer==0.3.3
-serverlessrepo==0.1.9 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
-six==1.15.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'
-tomlkit==0.5.8 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+serverlessrepo==0.1.10 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+six==1.15.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+text-unidecode==1.3
+tomlkit==0.7.0 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
 tzlocal==2.1
-urllib3==1.25.10 ; python_version != '3.4'
+urllib3==1.25.11 ; python_version != '3.4'
 websocket-client==0.57.0
 werkzeug==1.0.1 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
-wheel==0.35.1 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
-whichcraft==0.6.1
+wheel==0.36.1 ; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
